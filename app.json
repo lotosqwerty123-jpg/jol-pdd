@@ -18,7 +18,10 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.kratosp8s.JOL"
+      "package": "com.kratosp8s.JOL",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
     },
     "web": {
       "output": "static",
@@ -29,9 +32,15 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#0B0E11",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 92
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Разрешить JOL использовать камеру для строгого экзамена Beta."
         }
       ]
     ],

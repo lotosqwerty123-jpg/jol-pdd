@@ -14,7 +14,7 @@ export function ThemedText({ style, type = 'default', themeColor, ...rest }: The
   return (
     <Text
       style={[
-        { color: theme[themeColor ?? 'text'] },
+        { color: theme[themeColor ?? 'text'], includeFontPadding: false },
         type === 'default' && styles.default,
         type === 'title' && styles.title,
         type === 'small' && styles.small,
@@ -29,28 +29,30 @@ export function ThemedText({ style, type = 'default', themeColor, ...rest }: The
 
 const styles = StyleSheet.create({
   small: {
-    fontSize: 14,
-    lineHeight: 20,
+    fontSize: 13,
+    lineHeight: 19,
     fontWeight: '500',
   },
   smallBold: {
-    fontSize: 14,
-    lineHeight: 20,
+    fontSize: 13,
+    lineHeight: 19,
     fontWeight: '700',
   },
   default: {
     fontSize: 16,
-    lineHeight: 24,
+    lineHeight: 23,
     fontWeight: '500',
   },
   title: {
-    fontSize: 28,
-    fontWeight: '700',
-    lineHeight: 34,
+    fontSize: 29,
+    fontWeight: '800',
+    lineHeight: 35,
+    letterSpacing: -0.6,
   },
   subtitle: {
-    fontSize: 20,
-    lineHeight: 28,
-    fontWeight: '600',
+    fontSize: 19,
+    lineHeight: 25,
+    fontWeight: '700',
+    letterSpacing: -0.2,
   },
 });

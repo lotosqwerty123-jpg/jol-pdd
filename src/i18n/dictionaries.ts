@@ -106,7 +106,7 @@ export const dictionaries: Record<Lang, JolDict> = {
       ctaFinish: 'Начать подготовку',
       hint: 'Полный онбординг (категория, дата, темп) будет на следующем этапе.',
     },
-    nav: { home: 'Главная', learn: 'Обучение', exam: 'Экзамен', ai: 'AI-наставник', profile: 'Профиль' },
+    nav: { home: 'Главная', learn: 'Обучение', exam: 'Экзамен', ai: 'Помощник', profile: 'Профиль' },
     home: {
       greeting: 'Доброе утро',
       destination: 'Экзамен',
@@ -182,7 +182,7 @@ export const dictionaries: Record<Lang, JolDict> = {
       ctaFinish: 'Даярданууну баштоо',
       hint: 'Толук онбординг (категория, дата, темп) кийинки этапта болот.',
     },
-    nav: { home: 'Башкы', learn: 'Окуу', exam: 'Экзамен', ai: 'AI-насаатчы', profile: 'Профиль' },
+    nav: { home: 'Башкы', learn: 'Окуу', exam: 'Экзамен', ai: 'Жардамчы', profile: 'Профиль' },
     home: {
       greeting: 'Кайырлуу таң',
       destination: 'Экзамен',
@@ -258,7 +258,7 @@ export const dictionaries: Record<Lang, JolDict> = {
       ctaFinish: 'Start preparing',
       hint: 'Full onboarding (category, date, pace) comes in the next stage.',
     },
-    nav: { home: 'Home', learn: 'Learn', exam: 'Exam', ai: 'AI Tutor', profile: 'Profile' },
+    nav: { home: 'Home', learn: 'Learn', exam: 'Exam', ai: 'Tutor', profile: 'Profile' },
     home: {
       greeting: 'Good morning',
       destination: 'Exam',
