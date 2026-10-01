@@ -43,3 +43,4 @@ example
 /android
 
 index.backup.tsx
+.env
